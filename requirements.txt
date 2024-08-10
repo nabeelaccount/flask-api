@@ -1,0 +1,5 @@
+# All requirement modules are installed via python3 -m pip -r requirements.txt
+
+flask               #   The web framework.
+python-dotenv       #   retrive Flask env variables
+psycopg2-binary     #   Connecting to the database
