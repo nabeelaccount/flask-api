@@ -17,7 +17,6 @@ EXPOSE 5000
 # Define environment variable
 ENV FLASK_APP=app     
 ENV FLASK_DEBUG=False
-ENV FLASK_ENV=production
 
 # Run the application
-CMD ["python", "app.py"]
+CMD ["flask", "run"]
